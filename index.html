@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Eat the Multiverse</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Chewy&family=Cinzel:wght@700&family=Creepster&family=Fredoka:wght@600&family=Luckiest+Guy&family=Orbitron:wght@700&family=Patrick+Hand&family=Rajdhani:wght@600&family=Press+Start+2P&family=Silkscreen&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; height: 100%; background: #140d0a; overflow: hidden; }
+  canvas { position: fixed; inset: 0; display: block; width: 100vw; height: 100vh; touch-action: none; }
+  #gl { display: none; }
+  #game { cursor: crosshair; }
+</style>
+</head>
+<body>
+<canvas id="gl"></canvas>
+<canvas id="game"></canvas>
+<!-- ?v= bumps force browsers to fetch fresh code after an update -->
+<script src="vendor/three/three.classic.js?v=37"></script>
+<script src="assets/models.js?v=37"></script>
+<script src="render3d.js?v=37"></script>
+<script src="assets/manifest.js?v=37"></script>
+<script src="data.js?v=37"></script>
+<script src="game.js?v=37"></script>
+</body>
+</html>
